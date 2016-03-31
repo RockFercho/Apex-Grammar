@@ -1,0 +1,14 @@
+#contenedor2{
+width:90%; background-color: #ffffff; text-align: center; margin: 0 auto 0 auto; font-family:Verdana; }
+#cabecera2{
+width:100%; background-color: #FE2E2E; text-align: center; overflow:hidden; padding: 0px 0px 0px 0px; margin: 0 auto 10px auto; }
+#cuerpo2{
+width: 100%; margin: 0px auto 0px auto; background-color: #f5f5f5; overflow: hidden; }
+#izquierda2{
+float: left; width: 700px; background-color: #E6E6E6; font: 10pt Verdana;overflow-x: scroll;}
+#centro2{
+float: left; width: 500px; margin: 0px 0px 0px 10px; background-color: #D8D8D8; font: 10pt Verdana;overflow-x: scroll;}
+#derecha2{
+float: left; width: 270px; margin: 0px 0px 0px 10px; background-color: #BDBDBD; font: 10pt Verdana ;overflow-x: scroll;}
+#pie2{
+background-color: brown; margin: 10px 0 0 0; padding: 0 0 0 0px; text-align:center; clear: both; font: 8pt Verdana; color: yellow; }
