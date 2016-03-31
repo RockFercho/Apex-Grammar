@@ -13,33 +13,35 @@
 <div id="contenedor2">
 
 <div id="cabecera2"><h1>APEX GRAMMAR</h1></div> 
-<h2>CONDITIONAL OR EXPRESSION</h2>
+<h2>CONDITIONAL AND EXPRESSION</h2>
 
 <div id="cuerpo2">
 
 <div id="izquierda2">
 <p align="center"> <h3>GRAPH</h3></p>
-<img src="../img/conditionalOrExpression.png">
+<img src="../img/conditionalAndExpression.png">
 </div> 
 
 
 <div id="centro2">
 <p align="center"><h3>RULE</h3></p>
-<p align="center"><b><h4>CONDITIONAL_OR_EXPRESSION</h4></b></p>
+<p align="center"><b><h4>CONDITIONAL_AND_EXPRESSION</h4></b></p>
 
 <p align="left">
-    CONDITIONAL_OR_EXPRESSION::= </br>
-    &nbsp;&nbsp; <a href="conditionalAndExpression.html">CONDITIONAL_AND_EXPRESSION</a> </br>
-    &nbsp;&nbsp; ( &nbsp;  </br>
-    &nbsp;&nbsp;&nbsp;&nbsp; "||"&nbsp;<a href="conditionalAndExpression.html">CONDITIONAL_AND_EXPRESSION</a></br>
-    &nbsp;&nbsp; )* &nbsp;
+	CONDITIONAL_AND_EXPRESSION::= </br>
+	&nbsp;&nbsp; <a href="inclusiveOrExpression.html">INCLUSIVE_OR_EXPRESSION</a></br>
+	&nbsp;&nbsp;( </br>
+	&nbsp;&nbsp;&nbsp;&nbsp;"&&"
+	&nbsp;<a href="inclusiveOrExpression.html">INCLUSIVE_OR_EXPRESSION</a>&nbsp;
+	</br>
+	&nbsp;&nbsp;)*</br>
 </p>
 </div> 
 
 
 <div id="derecha2">
 <p align="center"><h3>CALLED BY</h3></p>
-<a href="conditionalExpression.html">CONDITIONAL_EXPRESSION</a>
+<a href="conditionalOrExpression.html">CONDITIONAL_OR_EXPRESSION</a></br>
 </div>
 
 
